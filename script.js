@@ -66,6 +66,10 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(() => {
           portfolioContent2.classList.remove("hidden");
           portfolioContent2.classList.add("show");
+          cursorimg.style.top = "70%";
+          cursorimg.style.left = "44.2%";
+          cursorimg.classList.remove("hidden")
+          cursorimg.classList.add("show")
         }, 0);
       }, 500); // Wait a bit before starting
     }
