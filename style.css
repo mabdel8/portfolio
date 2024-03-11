@@ -115,3 +115,9 @@ html {
 #ytb_img {
   width: 43px;
 }
+
+a {
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    color: white;
+}
